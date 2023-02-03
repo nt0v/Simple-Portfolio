@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    background-color:#3e3e42;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family:'Itim', cursive;
+    color: white;
+    text-align: center;
+    margin: 5rem auto 0;
+    width: fit-content;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family:'Itim', cursive;
+    color: white;
+    text-align: center;
+    margin: 5rem auto 3rem;
+    width: fit-content;
+}
+
+.me {
+    width: fit-content;
+    margin: auto;
+}
+
+.me img {
+    width: 15rem;
+    height: auto;
+}
+
+.me:hover {
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+}
+
+hr {
+    width: 75%;
+    border: 20px dotted white;
+    border-bottom: 0;
+}
+
+.project {
+    margin: 0 auto 2rem;
+    width: 675px;
+    border: 3px solid white;
+}
+
+.project p {
+    font-size: 3rem;
+    font-family:'Itim', cursive;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+.project a {
+text-decoration: none;
+}
+
+.project a img {
+    width: 4rem;
+    border-radius: 10px;
+}
+
+.project a img:hover {
+    opacity: 0.8
+}
+
+h1:hover,h3:hover,p:hover {
+    color: rgb(255, 102, 0);
+}
