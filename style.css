@@ -9,7 +9,7 @@ h1 {
     font-family:'Itim', cursive;
     color: white;
     text-align: center;
-    margin: 5rem auto 0;
+    margin: 1rem auto 0;
     width: fit-content;
 }
 
@@ -20,6 +20,15 @@ h3 {
     text-align: center;
     margin: 5rem auto 3rem;
     width: fit-content;
+}
+
+.logo {
+    width: fit-content;
+    margin: 2rem auto 0;
+}
+
+.logo img {
+    width: 5rem;
 }
 
 .me {
